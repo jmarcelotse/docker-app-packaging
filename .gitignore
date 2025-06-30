@@ -1,0 +1,22 @@
+# node
+node_modules/
+npm-debug.log
+
+# Docker
+*.log
+Dockerfile*
+.dockerignore
+
+# Secrets (se forem adicionados no futuro)
+.env
+*.pem
+*.key
+*.pub
+
+# VSCode e editores
+.vscode/
+.idea/
+
+# SO
+.DS_Store
+Thumbs.db
